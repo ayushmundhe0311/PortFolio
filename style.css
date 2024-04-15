@@ -10,7 +10,8 @@ html{
 body{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    background-color: #94A3F2;
+    /* background-color: #94A3F2; */
+    background-color: #24252a;
 }
 nav{
     display: flex;
@@ -104,4 +105,10 @@ nav ul li a:hover {
 .social{
     display: flex;
     column-gap: 2rem;
+}
+.social a i{
+    color: #fff;
+}
+.social a i:hover{
+    color: #685e5e;
 }
