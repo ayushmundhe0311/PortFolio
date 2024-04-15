@@ -12,6 +12,7 @@ body{
     font-weight: 400;
     /* background-color: #94A3F2; */
     background-color: #24252a;
+    height: 100vh;
 }
 nav{
     display: flex;
@@ -48,7 +49,6 @@ nav ul li a:hover {
 .main{
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
 }
 .container,.image{
     min-height: 50vh;
@@ -58,12 +58,8 @@ nav ul li a:hover {
 }
 .container{
     display: flex;
-    
-    align-items:center;
-    /* background-color: #a855f7; */
 }
 .image{
-    /* background: blue; */
     display: grid;
     place-items: center;
 }
@@ -72,6 +68,7 @@ nav ul li a:hover {
     height: min(30rem,100%);
     width: min(30rem,100%);
     border-radius: 100%;
+    margin-left: 40px;
 }
 .content{
     display: flex;
